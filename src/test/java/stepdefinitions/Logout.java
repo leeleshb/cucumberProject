@@ -7,6 +7,7 @@ public class Logout {
 
 	@When("user clicks on my account option")
 	public void user_clicks_on_my_account_option() {
+		System.out.println("hi");
 	    System.out.println("<<user clicks on my account option>>");
 	}
 
